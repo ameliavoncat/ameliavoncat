@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px|Source+Sans+Pro');
+
 body {
   width: 100%;
   height: 100vh;
   margin: 0;
   padding: 0;
   background-color: #B4BFBA;
+  font-family: 'Slabo 27px', serif;
 }
 
 a, a:hover{
@@ -13,7 +16,7 @@ a, a:hover{
 
 .Header{
   font-size: 2em;
-  font-family: monospace;
+  font-family: 'Source Sans Pro', sans-serif;
   font-weight: bold;
 }
 

@@ -1,0 +1,25 @@
+{
+  "name": "ameliavoncat.gihub.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ameliavoncat/ameliavoncat.gihub.io.git"
+  },
+  "author": "Amelia Clarke",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ameliavoncat/ameliavoncat.gihub.io/issues"
+  },
+  "homepage": "https://github.com/ameliavoncat/ameliavoncat.gihub.io#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.14.0"
+  }
+}

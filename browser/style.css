@@ -9,6 +9,16 @@ a {
   opacity: 0.6;
   text-decoration: none;
 }
+button {
+  background-color: #222222;
+  color: #E4F2EC;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  width: 100px;
+  height: 50px;
+}
 
 .Page {
   width: 100%;
@@ -43,14 +53,15 @@ a {
 }
 
 .Projects {
-  font-size: 20px;
+  font-family: monospace;
+  font-size: 18px;
   height: 500px;
   display: flex;
   justify-content: flex-start;
   background-color: #6E6E6E;
 }
 
-.Projects-project {
+.Projects-project, .Projects-image {
   color: #222222;
   width: 550px;
   height: 440px;
@@ -60,6 +71,21 @@ a {
   box-shadow: 10px 10px 30px 0 #222222;
 }
 
+.Projects-project-header {
+  font-size: 24px;
+}
+
+.Projects-project-links {
+  display: flex;
+}
+
+.Projects-project-link-container {
+  display: flex;
+}
+
+br {
+  margin-bottom: 20px;
+}
 .Projects-project-content {
   display: flex;
   flex-direction: column;
@@ -68,14 +94,23 @@ a {
   margin: 20px;
 }
 
-.Projects-project-image-container{
+.Projects-image-container{
   display: flex;
   justify-content: center;
 }
-.Projects-project-image {
-  width: 50%;
-  border-radius: 5px;
-  margin: 5px 0;
+
+.Projects-buttons {
+  width: 100%;
+  display: flex;
+}
+
+.Projects-buttons-container {
+  flex-grow: 1;
+}
+
+.Projects-buttons-container-next {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .Contact-text {

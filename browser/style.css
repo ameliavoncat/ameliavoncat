@@ -1,20 +1,23 @@
-body{
+body {
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100vh;
 }
+a {
+  color: inherit;
+  opacity: 0.6;
+  text-decoration: none;
+}
 
 .Page {
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
-.Intro {
+.Intro, .Contact {
   background-color: #222222;
   font-family: monospace;
-  padding-top: 100px;
-  padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,11 +25,18 @@ body{
   color: #E4F2EC;
 }
 
+.Intro {
+  padding-bottom: 20px;
+}
+
+.Intro-text, .Projects-header {
+  margin: 50px 0;
+}
+
 .Intro-options {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 50px;
   border-top: 1px solid #E4F2EC;
   border-bottom: 1px solid #E4F2EC;
   width: 280px;
@@ -34,10 +44,44 @@ body{
 
 .Projects {
   font-size: 20px;
-  padding-top: 100px;
+  height: 500px;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #6E6E6E;
+}
+
+.Projects-project {
+  color: #222222;
+  width: 550px;
+  height: 440px;
+  border-radius: 10px;
+  margin: 30px 40px;
+  background-color: #A8B2AE;
+  box-shadow: 10px 10px 30px 0 #222222;
+}
+
+.Projects-project-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /*text-align: center;*/
+  margin: 20px;
+}
+
+.Projects-project-image-container{
   display: flex;
   justify-content: center;
 }
+.Projects-project-image {
+  width: 50%;
+  border-radius: 5px;
+  margin: 5px 0;
+}
+
+.Contact-text {
+  margin: 20px;
+}
+
 
 #heart-logo {
   margin-top: 10px;
